@@ -1,0 +1,26 @@
+{
+  "name": "Memoriaal mysql2elastic",
+  "description": "export data to elastic front",
+  "version": "0.0.1",
+  "main": "./master.js",
+  "license": "MIT",
+  "private": true,
+  "single-instance": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/memoriaal/mysql2elastic.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node master.js"
+  },
+  "dependencies": {
+    "angular": "^1.5.5",
+    "async": "^2.6.0",
+    "bootstrap": "^3.3.6",
+    "elasticsearch": "^14.2.2",
+    "elasticsearch-browser": "^12.0.0-rc2",
+    "fast-csv": "^2.4.1",
+    "mysql": "^2.15.0"
+  }
+}
